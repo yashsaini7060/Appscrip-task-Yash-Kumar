@@ -1,0 +1,48 @@
+
+.product-card {
+  text-align: start ; 
+  padding: 5px;
+  width: 49%;
+  border: 1px solid #ddd;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-heading{
+  display: flex;
+  justify-content: space-between;
+}
+/* .product-title {
+  font-family: 'Simplon BP Regular', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+} */
+
+.product-price {
+  color: #28a745;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+}

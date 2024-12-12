@@ -1,0 +1,61 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button,
+.logo-icon,
+.search-button,
+.favorites-button,
+.cart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.logo-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-text {
+  font-family: 'Simplon Bold';
+  text-align: center;
+  width: 60%;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logo-text {
+    margin-left: 0;
+  }
+} */
